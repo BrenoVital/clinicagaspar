@@ -1,0 +1,550 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+Body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: #FFF;
+    color: #fff;
+    margin: auto;
+}
+
+.header{
+    flex: 1;
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+}
+
+.superior{
+    display: flex;
+    background-color: #354E32;
+    position: relative;
+    margin: auto;
+}
+
+.superior-geral{
+    display: inline-flex; 
+    text-align: center;
+    margin-left: 100px;
+}
+
+.email{
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.email img{
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+}
+
+.email p{
+    display: inline-block;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.logoimg{
+    height: 100px;
+    width: 100px;
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #CCC;
+    font-weight:600;
+    border-bottom: 5px solid #FFF;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.menu li a:hover{
+    color: #354E32;
+    border-bottom: 5px solid #CCC;
+}
+
+.section{
+    width: 100%;
+    height: 500px;
+    background: url(../Images/banner.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.section h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #354E32;
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.botao{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    background-color: #354E32;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 13px;
+    text-align: center;
+    background-image: url(../Images/seta.svg) no-repeat;
+}
+
+.botao img{
+    width: 10px;
+    margin-left: 3px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sobre-titulo{
+    font-size: 38px;
+    font-family: sans-serif;
+    color: #354E32;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sobre-informacao{
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #354E32;
+    margin-bottom: 10px;
+}
+
+.section-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.section-flexwhite{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+}
+
+.geral{
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;    
+}
+
+.section-geral h5{
+    font-size: 20px;
+    color: #354E32;
+    margin: 15px;
+}
+
+.section-geral p{
+    font-size: 15px;
+    margin-left: 5px;
+    color: #848280;
+    margin-bottom: 20px;
+}
+
+.servicos-geral{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.servicos-titulo{
+    font-size: 38px;
+    font-family: sans-serif;
+    color: #354E32;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.servicos-descricao{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #354E32;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 80px;
+}
+
+button{
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid white;
+    color: #000;
+    border-radius: 25px;
+    padding: 8px 18px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.newsletter{
+    display: flex;
+    margin: 50px 0px 40px 100px;
+    text-align: start;
+}
+
+.newsletter h2{
+    font-size: 35px;
+    padding: auto;
+}
+
+.newsletter span{
+    font-size: 15px;
+}
+
+form {
+    margin: 10px;
+    max-width:100vw;
+    text-align: start;
+}
+
+
+.button{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    background-color: #354E32;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.buton:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 13px;
+    text-align: center;
+    background-image: url(../Images/seta.svg) no-repeat;
+}
+
+footer{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.footer-geral{
+    display: flex;
+    height: 300px;
+    margin: auto  
+}
+
+.footer-geral .img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.footer-geral h5{
+    font-size: 12px;
+    color: #848280;
+    margin-bottom: 5px;
+    font-size: 400;
+}
+
+.footer-geral p{
+    font-size: 12px;
+    color: #848280;
+    margin-bottom: 5px;
+}
+
+.post{
+    margin-left: 20px;
+}
+.post h3{
+    font-size: 24px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.post a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.post span{
+    color: rgba(132, 130, 128, 0.3);
+}
+
+.post hr{
+    margin: 7px 0px;
+    border-bottom: 10px;
+    color: rgba(132, 130, 128, 0.2);
+}
+
+.redes-sociais{
+    display: flex;    
+    margin-top: 10px
+}
+
+.redes-sociais a{
+    margin-left: 15px;
+}
+
+.redes-sociais img{
+    width: 40px;
+}
+
+.autorais{
+    display: flex;
+    background-color: #354E32;
+}
+
+.autor{
+    margin: auto;
+    font-size: 15px;
+}
+
+@media (max-width:780px) {
+    .email img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .email p{
+        display: inline-block;
+        padding: 4px;
+        font-size: 7px;
+        text-align: center;
+}
+
+@media (max-width:700px) {
+    header{
+        display: flex;
+        height: 80px;
+        background-color: #FFF;
+        color: #fff;
+        margin: auto;
+    }
+
+    .header{
+        flex: 1;
+        max-width: 1140px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        align-items:center;
+    }
+
+    .logoimg{
+        height: 80px;
+        width: 80px;
+    }
+
+    .menu li a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 10px;
+        color: #CCC;
+        font-weight:600;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+
+    .menu li a:hover{
+    color: #354E32;
+    border-bottom: 5px solid #CCC;
+    }
+
+    .section-flex,
+    .section-flexwhite,
+    .section-geral{
+        display: grid;        
+        grid-template-columns: 1fr 2fr; 
+        align-items: center;      
+        text-align: center;
+        justify-content: space-between;
+        
+    }
+    .geral{
+        text-align: center;
+        margin-left: 50px;    
+    }
+}
+
+@media (max-width:500px) {
+    .redes-sociais img{
+        width: 20px;
+    }
+
+    .redes-sociais{
+        margin-left: auto;
+    } 
+}
+
+@media (max-width:400px) {
+    .email img{
+        width: 8px;
+        height: 8px;
+    }
+
+    .email p{
+        display: inline-block;
+        padding: 4px;
+        font-size: 7px;
+        text-align: center;
+    }
+
+    header{
+        display: flex;
+        height: 80px;
+        background-color: #FFF;
+        color: #fff;
+        margin: auto;
+    }
+
+    .header{
+        flex: 1;
+        max-width: 1140px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        align-items:center;
+    }
+
+    .section{
+        width: 100%;
+        height: auto;
+        background: url(../Images/banner.jpg) no-repeat center;
+        background-size: cover;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .section h1{
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #354E32;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 5px;
+    }
+        
+    .botao{
+        font-family: sans-serif;
+        font-size: 8px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 8px;
+        background-color: #354E32;
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .botao:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+        color: black;
+        font-size: 8px;
+        font-weight: bold;
+        padding: 5px 8px;
+        text-align: center;
+        background-image: url(../Images/seta.svg) no-repeat;
+    }
+
+    .botao img{
+        width: 7px;
+        margin-left: 3px;
+    }
+        
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-titulo{
+        font-size: 28px;
+        font-family: sans-serif;
+        color: #354E32;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .sobre-informacao{
+        padding: 10px;
+        font-size: 28px;
+        font-weight: bold;
+        color: #354E32;
+        margin-bottom: 10px;
+    }
+}
