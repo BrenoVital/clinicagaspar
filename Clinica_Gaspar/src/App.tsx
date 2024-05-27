@@ -1,11 +1,5 @@
-import Content from "./shared/components/Content";
-import Header from "./shared/components/Header";
+import Home from "./pages/Home";
 
 export default function App() {
-  return (
-    <>
-      <Header />
-      <Content />;
-    </>
-  );
+  return <Home />;
 }
