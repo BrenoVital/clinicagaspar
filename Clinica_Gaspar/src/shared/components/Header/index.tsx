@@ -1,10 +1,12 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import BottomMenu from "./components/TopMenu/BottomMenu";
+import TopMenu from "./components/TopMenu";
 
 export default function Header() {
   return (
     <Box>
-      <Box></Box>
-      <Typography variant="h1">Clinica Gaspar</Typography>
+      <TopMenu />
+      <BottomMenu />
     </Box>
   );
 }
